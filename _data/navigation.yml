@@ -1,0 +1,32 @@
+# main links
+main:
+
+  # - title: "Home"
+  #   url: https://yousojeong.github.io/
+
+  - title: "About Me"
+    url: "/about/"
+
+  - title: "Project"
+    url: "/project/"
+
+  - title: "Category"
+    url: "/categories/"
+
+  - Tags: "Tags"
+    url: "/tags/"
+
+  - Tags: "Year"
+    url: /year-archive/
+
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
