@@ -4,11 +4,22 @@
 - 사용 테마 [Minimal Mistakes] : [깃허브](https://github.com/mmistakes/minimal-mistakes) | [가이드 페이지](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) | [공식 페이지](https://mmistakes.github.io/minimal-mistakes/)
 
 ## 🔨 Customize
-- 댓글 : utterances 
-- 통계 : Google Analytics
+- 댓글 : [utterances] : [https://utteranc.es/](https://utteranc.es/)
+- 통계 : [Google Analytics] : [https://analytics.google.com/](https://analytics.google.com/)
+- 관리자 페이지 
+
+<br>
+
+- 예정
+  - 구글 검색
+  - 구글 광고
+  - 레이아웃 변경, 페이지 업로드
 
 ## 📑 Log
-- Version 1.0 : Github Blog - Start
+- Version 1.0 : Inital Commit (Now)
+- Version 1.1 : 레이아웃 조정
+
+## 🔗 ETC.
 
 <br>
 
