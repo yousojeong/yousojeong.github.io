@@ -1,0 +1,16 @@
+<!-- 포스트 제목만 나열 -->
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: 'list' }}__item">
+  {% if post.id == page.id %}
+    <a href="{{ post.url | relative_url }}" rel="permalink"><li>{{ title }}</li></a>
+  {% else %}
+    <a href="{{ post.url | relative_url }}" rel="permalink" style="list-style:circle"><li>{{ title }}</li></a>
+  {% endif %}
+</div>
+

@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US" # "ko-KR"
-title                    : "기록하는 Blog"
+title                    : "개발공부" # YOUSOJEONG
 title_separator          : "-"
-subtitle                 : "version 1.0" # site tagline that appears below site title in masthead
+subtitle                 : # "Develope Blog" # site tagline that appears below site title in masthead
 name                     : "유소정(You Sojeong)"
-description              : "기록하기"
+description              : # "기록하기"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog" "예기치 못하는 오류일 때 연결되는 url"
 repository               : "yousojeong/blog.comments"  # 댓글 관리 레포 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -105,7 +105,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "SoJeong"
+  name             : "YOUSOJEONG"
   avatar           : # "/assets/images/wave.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "반복하고 반복하기"
   location         : "South Korea, Seoul"
@@ -133,12 +133,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/yousojeong"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hielosan@naver.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yousojeong"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -295,6 +295,8 @@ defaults:
       comments: true
       share: true
       related: true
+    sidebar:
+      nav: "docs"
 
   # _pages                      
   - scope:

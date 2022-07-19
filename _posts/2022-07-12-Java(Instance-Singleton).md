@@ -16,6 +16,9 @@ toc_label : "Java"
 
 date : 2022-07-17
 last_modified_at : 2022-07-17
+
+sidebar:
+  nav: "docs"
 ---
 
 # 클래스 / 객체 / 인스턴스 / 싱글톤 / 추상화

@@ -56,6 +56,9 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% include page__date.html %}
+        
+        <!-- 같은 카테고리 내 앞뒤로 2개씩 다른 포스트 -->
+        {% include this-category.html %}
       </footer>
 
       {% if page.share %}{% include social-share.html %}{% endif %}
