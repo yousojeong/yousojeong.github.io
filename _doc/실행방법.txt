@@ -1,0 +1,38 @@
+1. 루비 설치
+https://rubyinstaller.org/
+2. Jekyll 설치
+gem install jekyll
+3. 디렉터리로 이동
+4. install bundler 로 번들설치
+기반은 Gemfile 을 토대로 함
+- 에러 발생으로 Gemfile 수정해서 사용
+5. bundle exec jekyll serve 실행
+6. http://127.0.0.1:4000/
+
+중간에 에러나면
+gem install wdm
+
+---
+2024.12.02
+C:\Users\ㅇㅇ>ruby -v
+ruby 3.3.6 (2024-11-05 revision 75015d4c1f) [x64-mingw-ucrt]
+
+C:\Users\ㅇㅇ>jekyll -v
+jekyll 4.3.4
+
+아래 명령어로 실행하면 에러남 
+PS C:\c_worksapce\yousojeong.github.io> jekyll serve
+C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/runtime.rb:299:in `check_for_activated_spec!': You have already activated public_suffix 6.0.1, but your Gemfile requires public_suffix 5.1.1. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/runtime.rb:25:in `block in setup'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/spec_set.rb:191:in `each'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/spec_set.rb:191:in `each'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/runtime.rb:24:in `map'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler/runtime.rb:24:in `setup'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/bundler-2.5.23/lib/bundler.rb:164:in `setup'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/jekyll-4.3.4/lib/jekyll/plugin_manager.rb:52:in `require_from_bundler'
+        from C:/c_program/Ruby33-x64/lib/ruby/gems/3.3.0/gems/jekyll-4.3.4/exe/jekyll:11:in `<top (required)>'
+        from C:/c_program/Ruby33-x64/bin/jekyll:25:in `load'
+        from C:/c_program/Ruby33-x64/bin/jekyll:25:in `<main>'
+
+
+bundle exec jekyll serve 으로 실행해야 함

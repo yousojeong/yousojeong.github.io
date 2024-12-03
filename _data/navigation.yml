@@ -1,0 +1,62 @@
+# main links
+main:
+
+  # - title: "Home"
+  #   url: https://yousojeong.github.io/
+
+  - title: "About Me"
+    url: "/about/"
+
+  - title: "Project"
+    url: "/project/"
+
+  - title: "Category"
+    url: "/categories/"
+
+  - title: "Tags"
+    url: "/tags/"
+
+  - title: "Year"
+    url: /year-archive/
+
+docs:
+  - title: Android
+    children:
+      - title: "Android Java"
+        url: /category-android-java/
+        category: "android-java"
+
+      - title: "Android Kotlin"
+        url: /category-android-kotlin/
+        category: "android-kotlin"
+
+  - title: Java
+    children:
+      - title: "Java"
+        url: /category-java/
+        category: "Java"
+
+      - title: "Spring"
+        url: /category-spring/
+        category: "spring"
+
+  - title: Etc
+    children:
+      - title: "TIL"
+        url: /category-til/
+        category: "til"
+
+      - title: "Error"
+        url: /category-error/
+        category: "error"
+
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

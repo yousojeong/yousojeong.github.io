@@ -1,0 +1,14 @@
+/* 현재 페이지에서 같은 카테고리 내 앞뒤로 포스트 목록 */
+.highlight__item {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #4e91a5;
+}
+
+.page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share{
+  overflow-wrap: break-word;
+}
+
+.sidebar__right {
+  margin-bottom: 2em;
+}
