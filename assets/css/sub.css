@@ -12,3 +12,8 @@
 .sidebar__right {
   margin-bottom: 2em;
 }
+
+/* 댓글 영역 max-width 해제  */
+.utterances {
+  max-width: none !important;
+}
