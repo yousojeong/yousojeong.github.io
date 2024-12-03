@@ -17,6 +17,10 @@
   @include breakpoint($x-large) {
     max-width: $max-width;
   }
+
+  #page {
+    font-size: 0.95em;
+  }
 }
 
 body {

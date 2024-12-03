@@ -7,6 +7,9 @@
    ========================================================================== */
 
 .sidebar {
+  font-size: 1.1em;
+  border-right: 1px solid lightgray;
+
   @include clearfix();
   // @include breakpoint(max-width $large) {
   //   /* fix z-index order of follow links */
@@ -73,6 +76,7 @@
 
 .sidebar__right {
   margin-bottom: 1em;
+  font-size: 1.1em;
 
   @include breakpoint($large) {
     position: absolute;
@@ -80,7 +84,7 @@
     right: 0;
     width: $right-sidebar-width-narrow;
     margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
+    padding-left: 1.5em;
     z-index: 10;
 
     &.sticky {

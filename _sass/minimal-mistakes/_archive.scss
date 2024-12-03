@@ -20,6 +20,9 @@
 
 .archive__item {
   position: relative;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  padding: .5rem;
+  border-radius: 4px;
 
   a {
     position: relative;
@@ -29,6 +32,10 @@
   a[rel="permalink"] {
     position: static;
   }
+}
+
+.archive__item:hover {
+  background-color: #f0f0f0;
 }
 
 .archive__subtitle {
@@ -44,6 +51,7 @@
 }
 
 .archive__item-title {
+  margin-top: 1em;
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
   line-height: initial;
